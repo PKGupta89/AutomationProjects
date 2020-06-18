@@ -17,7 +17,7 @@ public class StepDefinition {
     @Given("^User is on Netbanking page$")
     public void user_is_on_netbanking_page() {
     	System.out.println("Netbanking Page");
-       
+       System.out.println("This is clone project");
     }
     
     @When("^User login into application with username \"([^\"]*)\" and password \"([^\"]*)\"$")
@@ -25,16 +25,19 @@ public class StepDefinition {
     	System.out.println("Login Success");
     	System.out.println(strArg1);
     	System.out.println(strArg2);
+    	System.out.println("This is clone project");
     }
 
     @Then("^Home page is populated$")
     public void home_page_is_populated() {
      System.out.println("Home Page");
+     System.out.println("This is clone project");
     }
     @And("^Cards displayed are \"([^\"]*)\"$")
     public void cards_displayed_are_something(String strArg1) {
     	System.out.println("Cards Display");
     	System.out.println(strArg1);
+    	System.out.println("This is clone project");
     }
 
 }
