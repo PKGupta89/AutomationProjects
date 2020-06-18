@@ -7,12 +7,6 @@ e
 f
 g
 h
-i
-h
-k
-l
-m
-n
 
 Number
 1
