@@ -28,6 +28,7 @@ public class StepDefinition {
     	System.out.println(strArg2);
     	System.out.println("This is clone project");
     	System.out.println("This is Original Projects changes done");
+    	System.out.println("Develop branch created");
     }
 
     @Then("^Home page is populated$")
@@ -42,6 +43,7 @@ public class StepDefinition {
     	System.out.println(strArg1);
     	System.out.println("This is clone project");
     	System.out.println("This is Original Projects changes done");
+    	System.out.println("Develop branch created");
     }
 
 }
