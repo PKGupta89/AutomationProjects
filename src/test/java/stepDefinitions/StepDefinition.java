@@ -19,6 +19,7 @@ public class StepDefinition {
     	System.out.println("Netbanking Page");
        System.out.println("This is clone project");
    	System.out.println("This is Original Projects changes done");
+	System.out.println("Canada development team made changes");
     }
     
     @When("^User login into application with username \"([^\"]*)\" and password \"([^\"]*)\"$")
@@ -44,6 +45,8 @@ public class StepDefinition {
     	System.out.println("This is clone project");
     	System.out.println("This is Original Projects changes done");
     	System.out.println("Develop branch created");
+    	System.out.println("Canada development team made changes");
+    	
     }
 
 }
